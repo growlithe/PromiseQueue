@@ -1,0 +1,29 @@
+{
+  "name": "assignment",
+  "version": "0.0.1",
+  "description": "Assignment for The Farmer's Dog",
+  "main": "./node_modules/babel-cli/bin/babel-node.js index.js",
+  "scripts": {
+    "work": "./node_modules/babel-cli/bin/babel-node.js index.js",
+    "test": "./node_modules/mocha/bin/mocha --compilers js:babel-core/register -R nyan || exit 0"
+  },
+  "author": "Paul Lagutski",
+  "license": "ISC",
+  "dependencies": {
+    "babel-polyfill": "^6.20.0",
+    "chai": "^3.5.0",
+    "chai-as-promised": "^6.0.0"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.18.0",
+    "babel-eslint": "^7.1.1",
+    "babel-plugin-transform-class-properties": "^6.19.0",
+    "babel-preset-latest": "^6.16.0",
+    "eslint": "^3.12.2",
+    "eslint-config-airbnb": "^13.0.0",
+    "eslint-plugin-import": "^2.2.0",
+    "eslint-plugin-jsx-a11y": "^2.2.3",
+    "eslint-plugin-react": "^6.8.0",
+    "mocha": "^3.2.0"
+  }
+}
